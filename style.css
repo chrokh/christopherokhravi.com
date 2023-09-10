@@ -64,6 +64,7 @@ nav a i{
 .bg-patterns  { background-color: #6528F7; }
 .bg-books  { background-color: #F3AA60; }
 .bg-patreon  { background-color: #3a3a3a; }
+.bg-twitter { background-color: #00acee; }
 nav > a:hover{
   opacity: 0.7;
 }
