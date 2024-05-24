@@ -24,6 +24,10 @@ img.md{
 img {
   max-width: 100%;
 }
+img.book {
+  margin: 6px;
+  height: 200px;
+}
 .container{
   position: absolute;
   top:   4%;
@@ -55,18 +59,23 @@ nav > a{
   text-decoration: none;
   text-align: left;
   color: #fff;
+  border: 4px solid transparent;
 }
 nav a i{
   padding-right: .3em;
 }
-.bg-uu { background-color: #A76F6F; }
+.bg-uu { background-color: #A76F6F; color: #222; }
 .bg-youtube { background-color: #F31559; }
 .bg-patterns  { background-color: #6528F7; }
-.bg-books  { background-color: #F3AA60; }
+.bg-books  { background-color: #FFDB00; color: #222; }
 .bg-patreon  { background-color: #3a3a3a; }
-.bg-twitter { background-color: #00acee; }
+.bg-twitter { background-color: #00acee; color: #222; }
 nav > a:hover{
-  opacity: 0.7;
+  opacity: 0.8;
+}
+.dim { opacity: 0.5; }
+nav > a.dim:hover {
+  opacity: 0.4;
 }
 iframe{
   margin:  1.5em 0 62px 0;
