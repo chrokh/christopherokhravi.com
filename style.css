@@ -64,13 +64,14 @@ nav > a{
 nav a i{
   padding-right: .3em;
 }
-.bg-uu { background-color: #A76F6F; color: #222; }
+.bg-uu { background-color: #A76F6F; }
 .bg-wisio { background-color: #9B59B6; }
 .bg-youtube { background-color: #F31559; }
 .bg-patterns  { background-color: #6528F7; }
+.bg-book { background-color: #198754; }
 .bg-books  { background-color: #FFDB00; color: #222; }
 .bg-patreon  { background-color: #3a3a3a; }
-.bg-twitter { background-color: #00acee; color: #222; }
+.bg-twitter { background-color: #00acee; }
 nav > a:hover{
   opacity: 0.8;
 }
