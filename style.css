@@ -17,6 +17,7 @@ h2 {
 }
 img.sm{
   width: 160px;
+  border-radius: 50%;
 }
 img.md{
   width: 665px;
@@ -47,6 +48,16 @@ img.book {
   margin-left:  auto;
   margin-right: auto;
 }
+
+.social {
+  font-size: 1.8em;
+}
+.social a { margin-left: 3px; margin-right: 3px; }
+.social a:hover { opacity: 0.5; }
+.social .fa-building-columns { color: #A76F6F; }
+.social .fa-twitter { color: #00acee; }
+.social .fa-youtube { color: #F31559; }
+
 nav{
   font-size: 1.5em;
   line-height: 1.2em;
@@ -64,14 +75,24 @@ nav > a{
 nav a i{
   padding-right: .3em;
 }
+
+
+/*.bg-uu,
+.bg-twitter,
+.bg-youtube {
+  background-color: transparent;
+  border: 1px solid #666;
+  color: #666;
+}*/
 .bg-uu { background-color: #A76F6F; }
-.bg-wisio { background-color: #9B59B6; }
+.bg-twitter { background-color: #00acee; }
 .bg-youtube { background-color: #F31559; }
+.bg-wisio { background-color: #9B59B6; }
 .bg-patterns  { background-color: #6528F7; }
 .bg-book { background-color: #198754; }
 .bg-books  { background-color: #FFDB00; color: #222; }
-.bg-patreon  { background-color: #3a3a3a; }
-.bg-twitter { background-color: #00acee; }
+.bg-merch  { background-color: #3a3a3a; }
+.bg-patreon { background-color: #823764; }
 nav > a:hover{
   opacity: 0.8;
 }
